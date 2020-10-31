@@ -1,1 +1,1 @@
-# Açık Kaynak Geliştirme Eğitimi Kod Deposu
+# Açık Kaynak C++ Geliştirme Eğitimi Kod Deposu
