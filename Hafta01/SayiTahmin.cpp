@@ -19,5 +19,27 @@ int main()
     // değerler eşitse tebrik et --> if
     // değilse, tekrar deneyin yaz --> else
 
+    std::cout << "1-10 arasinda bir sayi giriniz: ";
+
+    while (true)
+    {
+        std::cin >> tahmin;
+        if (tahmin > 10 || tahmin < 1)
+            std::cout << "Lütfen 1-10 arasinda bir sayi giriniz: ";
+        else
+        {
+            if (tut == tahmin)
+            {
+
+                std::cout << "Tebrikler tahmininiz dogru!";
+                break;
+            }
+            else
+            {
+                std::cout << "Üzgünüm tahmininiz yanlis. Lütfen tekrar deneyiniz!" << std::endl;
+                std::cout << "1-10 arasinda bir sayi giriniz: ";
+            }
+        }
+    }
     return 0;
 }
