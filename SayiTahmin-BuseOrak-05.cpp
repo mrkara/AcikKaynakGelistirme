@@ -27,5 +27,6 @@ int main()
             std::cout << "Tekrar deneyin!" << std::endl;
         }
     }
-        return 0;
+    
+    return 0;
 }
