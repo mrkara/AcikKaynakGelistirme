@@ -7,3 +7,4 @@
 ## Kaynaklar
 * [C++ Succinctly](https://www.syncfusion.com/ebooks/cplusplus) (PDF olarak indirilebilir kitap)
 * [C++ Tutorial](https://www.w3schools.com/cpp/default.asp)
+* [Temel Git terimleri ve komutları](https://medium.com/@alianilkocak/temel-git-terimleri-ve-komutlar%C4%B1-6bc62b802baf)
