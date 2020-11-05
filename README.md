@@ -3,6 +3,7 @@
 * Eğitmen: Muhammet Kara - Twitter: [muhamm3tkara](https://twitter.com/muhamm3tkara)
 * Organizasyon: ACM Hacettepe - Twitter: [acmhacettepe](https://twitter.com/acmhacettepe)
 * Sponsor: [Collabora Online](https://github.com/CollaboraOnline/online)
+* Telegram Grubu: [OpenSourceDevTR](https://t.me/OpenSourceDevTR)
 
 ## Kaynaklar
 * [C++ Succinctly](https://www.syncfusion.com/ebooks/cplusplus) (PDF olarak indirilebilir kitap)
