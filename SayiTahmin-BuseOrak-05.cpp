@@ -3,10 +3,10 @@
 
 int main()
 {
-    int tut = 5;
+    const int tut = 5;
     int tahmin;
     
-    std::string bilgi = "Bu program kullanıcının bir sayı girmesini bekler ve "
+    const std::string bilgi = "Bu program kullanıcının bir sayı girmesini bekler ve "
     "bu sayının, programın tuttuğu sayıya eşit olup olmadığını kontrol eder.";
     
     std::cout << bilgi << std::endl;
