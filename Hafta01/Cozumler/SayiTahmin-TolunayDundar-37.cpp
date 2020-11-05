@@ -7,7 +7,8 @@ If the number inputted by user is equal to the random number, it prints "Congrat
 
 //This function generates a random number between the inputted lowest and highest numbers
 int generate_random_number(int lowest, int highest)
-{   srand(time(NULL));
+{
+    srand(time(NULL));
     int random_number = rand() % highest + lowest;
     return random_number;
 }
@@ -28,8 +29,9 @@ void guess_check(int secret_number, int guess)
 
 int main(void)
 {
-    const std::string greet = "Hello! I will pick a number between 1 and 20 and you will try to guess.";
-    int random_number = generate_random_number(1,20);
+    const std::string greet
+        = "Hello! I will pick a number between 1 and 20 and you will try to guess.";
+    int random_number = generate_random_number(1, 20);
     int guess;
 
     std::cout << greet << std::endl;
