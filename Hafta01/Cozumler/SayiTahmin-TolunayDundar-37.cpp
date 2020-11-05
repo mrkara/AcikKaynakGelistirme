@@ -28,7 +28,7 @@ void guess_check(int secret_number, int guess)
 
 int main(void)
 {
-    std::string greet = "Hello! I will pick a number between 1 and 20 and you will try to guess.";
+    const std::string greet = "Hello! I will pick a number between 1 and 20 and you will try to guess.";
     int random_number = generate_random_number(1,20);
     int guess;
 
