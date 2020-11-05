@@ -1,0 +1,2 @@
+- name: git-clang-format lint
+  uses: yshui/git-clang-format-lint@v1.3
