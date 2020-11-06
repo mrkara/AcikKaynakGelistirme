@@ -18,9 +18,9 @@ void compare(int tahmin, int tut) {
 int main(int argc, char **argv) {
 
     // sayı tut
-    int tut = 7;
+    const int tut = 7;
     int tahmin;
-    std::string message = "Bu program [1, 10] aralığında bir sayı tutar.\n"
+    const std::string message = "Bu program [1, 10] aralığında bir sayı tutar.\n"
                           "Girilen sayının programın tuttuğu sayıya\n"
                           "eşit olup olmadığını kontrol eder.\n";
 
