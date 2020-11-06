@@ -2,9 +2,10 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     // tut ve tahmin değişkenlerini integer olarak ayarladım
-    int tut,tahmin;
+    int tut, tahmin;
     // tut değerini yazdım
     tut = 7;
     // input metnini girdim
@@ -12,10 +13,12 @@ int main(){
     // kullanıcıdan input aldım
     cin >> tahmin;
     // değerleri kontrol ediyorum
-    if (tut == tahmin){
+    if (tut == tahmin)
+    {
         cout << "TEBRİKLER" << endl;
     }
-    else {
+    else
+    {
         cout << "Tekrar Deneyiniz" << endl;
     }
     return 0;
