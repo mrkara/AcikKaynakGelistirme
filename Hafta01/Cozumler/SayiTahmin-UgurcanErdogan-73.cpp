@@ -10,9 +10,6 @@ using namespace std;
 
 int generate() // Generates an integer.
 {
-  int min = 1;
-  int max = 10;
-
   srand(time(NULL));
   return rand() % 10 + 1; // Choose a random integer between 1 and 10.
 }
