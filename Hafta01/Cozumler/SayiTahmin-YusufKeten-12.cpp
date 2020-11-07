@@ -12,16 +12,17 @@ const std::string aciklama = "Bu program, 1 ile 10 arasında bir sayı tutar ve 
                              "'Tebrikler!' yazar\nDeğer farklıysa 'Tekrar deneyin!' "
                              "yazar\n";
 
-int main() {
+int main()
+{
     // sayı tut
-        int tut = 7;
-        int tahmin;
+    int tut = 7;
+    int tahmin;
 
     // kullanıcıya bilgi ver -> bu program şu işe yarar...
-std::cout << aciklama;
-// kullanıcıdan 1 ile 10 arası sayı girmsini iste
-std::cout << "Şimdi lütfen 1-10 arasında bir sayı giriniz" << std::endl;
-// sayıyı oku ve tahmin değişkenine ata
+    std::cout << aciklama;
+    // kullanıcıdan 1 ile 10 arası sayı girmsini iste
+    std::cout << "Şimdi lütfen 1-10 arasında bir sayı giriniz" << std::endl;
+    // sayıyı oku ve tahmin değişkenine ata
     std::cin >> tahmin;
     // değerler eşitse tebrik et --> if
     if (tahmin == tut)
