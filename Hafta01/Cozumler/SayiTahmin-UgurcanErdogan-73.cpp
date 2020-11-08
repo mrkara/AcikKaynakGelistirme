@@ -10,26 +10,32 @@ using namespace std;
 
 int generate() // Generates an integer.
 {
-  srand(time(NULL));
-  return rand() % 10 + 1; // Choose a random integer between 1 and 10.
+    srand(time(NULL));
+    return rand() % 10 + 1; // Choose a random integer between 1 and 10.
 }
 
-int main() {
-  int theNum = generate();
-  int theGiven;
-  cout << "Please enter an integer between 1 and 10: "
-       << endl;
+int main()
+{
+    int theNum = generate();
+    int theGiven;
+    cout << "Please enter an integer between 1 and 10: " << endl;
 
-  while (true) {
-    cin >> theGiven;
-    if (theNum == theGiven) {
-      cout << "Congrats! You guessed it!" << endl;
-      break;
-    } else if (theNum < theGiven) {
-      cout << "The answer is wrong. Enter a smaller number! : " << endl;
-    } else if (theNum > theGiven) {
-      cout << "The answer is wrong. Enter a bigger number! : " << endl;
+    while (true)
+    {
+        cin >> theGiven;
+        if (theNum == theGiven)
+        {
+            cout << "Congrats! You guessed it!" << endl;
+            break;
+        }
+        else if (theNum < theGiven)
+        {
+            cout << "The answer is wrong. Enter a smaller number! : " << endl;
+        }
+        else if (theNum > theGiven)
+        {
+            cout << "The answer is wrong. Enter a bigger number! : " << endl;
+        }
     }
-  }
-  return 0;
+    return 0;
 }
