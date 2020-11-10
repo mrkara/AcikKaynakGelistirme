@@ -12,42 +12,49 @@ using namespace std; // Standart sınıfları doğrudan kullanabilmek için ("st
 
 bool isOdd(int num)
 {
-    if (num%2!=0){
-     return true;
- }
-    else{
-     return false;
- } 
+    if (num % 2 != 0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
 
 bool isEven(int num)
 {
-    if(num%2==0){
-     return true;
- }
-     else{
-     return false;
- } 
+    if (num % 2 == 0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
 
 int main()
 {
     // Kullanıcıyı karşıla
-    cout << "Bu program girdiğiniz sayının çift ya da tek olmasını kontrol eder.\nÇıkmak için '0'\n";
+    cout
+        << "Bu program girdiğiniz sayının çift ya da tek olmasını kontrol eder.\nÇıkmak için '0'\n";
     // 0 girene kadar tam sayı isteyip tek mi çift mi olduğunu yaz
     int sayi = 0;
     do
     {
-        cout <<"Sayınızı girin:\t";
+        cout << "Sayınızı girin:\t";
         cin >> sayi;
-        switch (isEven(sayi)){
-        case true:
-        cout << sayi <<" sayısı çifttir.\n";
-}
-        switch (isOdd(sayi)){
-        case true:
-        cout << sayi <<" sayısı tektir.\n";
- }  
+        switch (isEven(sayi))
+        {
+            case true:
+                cout << sayi << " sayısı çifttir.\n";
+        }
+        switch (isOdd(sayi))
+        {
+            case true:
+                cout << sayi << " sayısı tektir.\n";
+        }
     } while (sayi != 0);
 
     cout << "Programdan çıktınız.\n";
