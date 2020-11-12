@@ -10,15 +10,9 @@
 
 using namespace std; // Standart sınıfları doğrudan kullanabilmek için ("std::string" yerine sadece "string" gibi)
 
-bool isOdd(int num)
-{
-    return(num % 2 != 0);
-}
+bool isOdd(int num) { return (num % 2 != 0); }
 
-bool isEven(int num)
-{
-    return(num % 2 == 0);
-}
+bool isEven(int num) { return (num % 2 == 0); }
 
 int main()
 {
