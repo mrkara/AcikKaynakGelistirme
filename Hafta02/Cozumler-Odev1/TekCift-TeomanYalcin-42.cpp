@@ -44,7 +44,6 @@ int main()
     // Kullanıcıyı karşıla
     // 0 girene kadar tam sayı isteyip tek mi çift mi olduğunu yaz
     int sayi;
-    
 
     do
     {
@@ -54,10 +53,10 @@ int main()
         if (isEven(sayi))
         {
             cout << sayi << " sayısı çifttir." << endl;
-            
-        }else if(isOdd(sayi)){
+        }
+        else if (isOdd(sayi))
+        {
             cout << sayi << " sayısı tektir." << endl;
-            
         }
         else
         {
