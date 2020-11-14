@@ -1,7 +1,5 @@
 
 #include <iostream>
-#include <ostream>
-#include <string>
 
 int main()
 {
