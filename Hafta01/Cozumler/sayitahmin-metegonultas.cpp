@@ -3,7 +3,7 @@
 
 int main()
 {
-    int tut = 8;
+    const int tut = 8;
     int tahmin;
 
     std::cout << "Tahmininiz: ";
