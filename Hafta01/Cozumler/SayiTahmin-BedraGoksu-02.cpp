@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-std::string info = "Bu program kullanicidan 1 ile 10 arasi bir tam sayi girmesini ister ve "
+const std::string info = "Bu program kullanicidan 1 ile 10 arasi bir tam sayi girmesini ister ve "
                    "kullanicin tahmininin dogrulugunu test eder.";
 
 int main()
