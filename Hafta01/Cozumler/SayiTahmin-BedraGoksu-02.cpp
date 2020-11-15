@@ -2,7 +2,7 @@
 #include <string>
 
 const std::string info = "Bu program kullanicidan 1 ile 10 arasi bir tam sayi girmesini ister ve "
-                   "kullanicin tahmininin dogrulugunu test eder.";
+                         "kullanicin tahmininin dogrulugunu test eder.";
 
 int main()
 {
