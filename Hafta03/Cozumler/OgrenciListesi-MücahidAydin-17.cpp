@@ -88,7 +88,7 @@ int main()
                         continue;
                     }
 
-                    // Dosyaya yazmadan önce bilgileri noktalı virgülle ayırarak standartlaştırıyoruz.
+                    // Dosyaya yazmadan önce bilgileri boşluk karakteri ile ayırarak standartlaştırıyoruz.
                     // Okuma yaparken bu bize yardımcı olacak
                     string outStr(yeniOgrenci.getAd() + " " + yeniOgrenci.getSoyad() + " "
                                   + yeniOgrenci.getOgrenciNo() + " ");
@@ -113,7 +113,7 @@ int main()
                 int sayac2 = 1;
 
                 /* Boşluk karakterine gelene kadar olan harfleri (kelime) değişkenine atar 
-                ve son kelimeye kadar while döngüsün çalıştırı. */
+                ve son kelimeye kadar while döngüsünü çalıştırı. */
                 while (ogrListesi2 >> kelime)
                 {
                     if (sayac == 1)
