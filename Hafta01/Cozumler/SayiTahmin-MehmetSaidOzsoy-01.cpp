@@ -9,15 +9,36 @@
 
 int main()
 {
-    // sayı tut
-    int tut = 7;
-    int tahmin = 0;
+    const int tut = 5;
+    int tahmin;
 
-    // kullanıcıya bilgi ver -> bu program şu işe yarar...
-    // kullanıcıdan 1 ile 10 arası sayı girmsini iste
-    // sayıyı oku ve tahmin değişkenine ata
-    // değerler eşitse tebrik et --> if
-    // değilse, tekrar deneyin yaz --> else
+    const std::string bilgi
+        = "Bu program kullanıcının bir sayı girmesini bekler ve "
+          "bu sayının, programın tuttuğu sayıya eşit olup olmadığını kontrol eder.";
+
+    std::cout << bilgi << std::endl;
+    std::cout << "0 ve 10 arasında bir tam sayı giriniz." << std::endl;
+    std::cin >> tahmin;
+
+    if (tahmin > 10)
+    {
+        std::cout << "Lütfen 10'dan büyük sayı girmeyiniz." << std::endl;
+    }
+    else if (tahmin < 0)
+    {
+        std::cout << "Lütfen negatif sayılar girmeyiniz." << std::endl;
+    }
+    else
+    {
+        if (tahmin == tut)
+        {
+            std::cout << "Tebrikler!" << std::endl;
+        }
+        else
+        {
+            std::cout << "Tekrar deneyin!" << std::endl;
+        }
+    }
 
     return 0;
 }
