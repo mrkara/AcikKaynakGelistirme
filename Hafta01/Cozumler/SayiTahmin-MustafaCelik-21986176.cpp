@@ -15,7 +15,5 @@ int main()
     {
         cout << "Sayılar aynı değil :/ " << endl;
     }
-    
-
     return 0;
 }
