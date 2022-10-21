@@ -17,6 +17,30 @@ private:
 
 public:
     //Yukarıdaki değişkenler için get ve set metodları yazınız
+        string getAd()
+    {
+        return this->ad;
+    }
+    string getSoyad()
+    {
+        return this->soyad;   
+    }
+    string getOgrenciNo()
+    {
+        return this->ogrenciNo;
+    }
+    void setAd(string yeniAd)
+    {
+        ad = yeniAd;
+    }
+    void setSoyad(string yeniSoyad)
+    {
+        soyad = yeniSoyad;
+    }
+    void setOgrenciNo(string yeniNo)
+    {
+        ogrenciNo = yeniNo;
+    }
 };
 
 int main()
