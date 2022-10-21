@@ -12,24 +12,37 @@ using namespace std; // Standart sınıfları doğrudan kullanabilmek için ("st
 
 bool isOdd(int num)
 {
-    //TODO: Implement
+    return (num % 2 == 0) ? false : true;
 }
 
 bool isEven(int num)
 {
-    //TODO: Implement
+    return (num % 2 == 0);
 }
 
 int main()
 {
     // Kullanıcıyı karşıla
+    cout << "Merhaba, tek-çift programına hoşgeldiniz." << endl;
+    cout << "0'a basarak programdan çıkabilirsiniz." << endl;
     // 0 girene kadar tam sayı isteyip tek mi çift mi olduğunu yaz
     int sayi = 0;
     do
     {
-        //TODO: Implement
+        cout << "Lütfen bir sayı giriniz: ";
+        cin >> sayi;
+        cout << "\n";
+        if (isOdd(sayi))
+        {
+            cout << sayi << " sayısı tektir." << endl;
+        }
+        else if (isEven(sayi))
+        {
+            cout << sayi << " sayısı çifttir." << endl;
+        }
+        cout << "\n";
     } while (sayi != 0);
-
+    cout << "Teşekkürler." << endl;
     // Kullanıcıyı uğurla
 
     return 0;
